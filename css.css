@@ -1,0 +1,187 @@
+/* start global */ 
+body{ 
+	   background-image: url('3.jpg');
+	   color: #6d33ce;
+	   font-family: Arial, 'lucida Sans Unicode' ; 
+	   font-size: 95%;
+	   line-height: 1.5; 
+	   text-align: left;
+	   margin: 20px auto;
+	   width: 70%;
+       clear: both;
+	   }
+/* End  global */ 
+
+
+/* start header */
+img{width: 100%;border-radius: 30px}
+/* End header   */
+
+
+/* start navigation */
+
+
+a{text-decoration: none;}
+
+nav{background-color:#ff0030;
+    height: 40px;
+	border-radius: 10px;
+	--webkit--border-radius: 10px;
+	--moz--border-radius: 10px}
+
+nav ul{list-style: none;text-align: center;}
+nav ul li { display: inline-block; }
+
+
+.mainheader a:link,  .mainheader a:visited
+{color: #ffffff;padding: 10px 40px;display: inline-block;height: 20px;}
+
+
+.mainheader a:hover, .mainheader a:active 
+{color: #ff0030;background-color: #ffffff; text-shadow: 1px 1px}
+     
+     
+/* End navigation */
+
+
+
+/* Start articales*/
+
+.maincontent{width: 70%; float: left;}
+.top-content{
+    background-color:#f1f1f1;
+    padding: 3%;
+    margin-top: 3%;
+    border-radius: 10px;
+	--webkit--border-radius: 10px;
+	--moz--border-radius: 10px  
+}
+.poste-info{ 
+    font-size: 90%;
+    color: #999;          
+    font-style: italic;
+    margin-top: -20px     
+}
+.post-content{ 
+    display: block;
+    
+}
+
+figure { margin: 25px; 0px;text-align: center;font-size: 80%;color: #999}
+audio { text-align: center}
+
+/* End articales*/
+    
+
+
+/* Start side bare */ 
+.Thesidebar{ 
+    width: 24%;
+    margin: 2% 0 0 2%; 
+    float: left;
+    background-color: #f1f1f1;
+    padding: 2%;
+    border-radius: 10px;
+	--webkit--border-radius: 10px;
+	--moz--border-radius: 10px;
+
+}
+
+/* End side bare */
+
+
+
+
+/* Strat footer */ 
+
+.footclass  {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    background-color:#ff0030;
+	border-radius: 10px;
+	--webkit--border-radius: 10px;
+	--moz--border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 2px
+}
+
+
+/* End  footer */ 
+
+
+
+
+/* ---------- CSS3 FOR MOBILE -----------------------*/
+@media screen and (max-width:400px){
+    
+/* Start global For Mobile */ 
+body{width: 90% ; font-size: 95%}
+/* End global For Mobile*/
+    
+    
+    
+/* start navigation For Mobile */
+    
+nav{ height: 160px }
+nav ul{width: 100%;padding: 0}
+nav ul li { display: inline}
+
+
+.mainheader a:link,  .mainheader a:visited
+{display: block}
+
+
+.mainheader a:hover, .mainheader a:active 
+{color: #ff0030;background-color: #ffffff; text-shadow: 1px 1px}
+
+    
+/* End navigation For Mobile */
+    
+    
+    
+/* Start articales For Mobile */
+    
+ .maincontent{width: 100%}   
+    
+/* End articales For Mobile */
+    
+    
+
+/* Start side bare For Mobile*/
+    
+.Thesidebar{width: 100%}
+ 
+/* End side bare For Mobile*/
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
